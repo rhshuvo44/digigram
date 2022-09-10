@@ -642,7 +642,7 @@ ul {
   color: #8e8aad;
   line-height: 1.5;
   margin-left: 10px;
-  transition: .5s all;
+  transition: 0.5s all;
 }
 .contact-list li a:hover {
   text-decoration: underline;
@@ -839,6 +839,7 @@ ul {
 /* big footer-section css start  */
 footer {
   padding-top: 100px;
+  border-top: 1px solid #e9e8f5;
 }
 .big-footer-area {
   margin-bottom: 50px;
@@ -861,7 +862,7 @@ footer {
   line-height: 1.5;
   margin-bottom: 10px;
 }
-.footer-logo-section ul li a{
+.footer-logo-section ul li a {
   color: #5641df !important;
 }
 .footer-title {
@@ -923,6 +924,50 @@ footer {
   line-height: 1.5;
   transition: 0.5s all;
 }
-.copyright-menu a:hover ,.copyright-area p a:hover{
+.copyright-menu a:hover,
+.copyright-area p a:hover {
   text-decoration: underline;
+}
+/* footer end  */
+
+/* all pages banner  */
+.banner-container {
+  background: #f6f5fc;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 150px 0px;
+}
+.banner-container p {
+  color: #8e8aad;
+  font-size: 14px;
+  line-height: 21px;
+}
+.banner-container a {
+  color: #5641df;
+  font-size: 14px;
+  line-height: 21px;
+}
+.banner-container a:hover {
+  text-decoration: underline;
+}
+.banner-container h2 {
+  color: #645f88;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 10px;
+}
+/* all pages banner  */
+/* news  */
+.news-pages-section {
+  padding: 50px 0px;
+  border-top: none;
+}
+.news-area {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.news-area .news {
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
