@@ -963,11 +963,11 @@ footer {
   padding: 50px 0px;
   border-top: none;
 }
-.news-area {
+.news-pages-section .news-area {
   justify-content: center;
   flex-wrap: wrap;
 }
-.news-area .news {
+.news-pages-section .news-area .news {
   margin-bottom: 50px;
   margin-left: 50px;
 }
